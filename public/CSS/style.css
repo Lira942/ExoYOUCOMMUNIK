@@ -1,0 +1,128 @@
+h1,h2,h3{
+    color: white;
+}
+    /* NAVBAR */
+header{
+    display: flex;
+}
+header>ul>li{
+    padding-right: 5%;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(41, 40, 40);
+    opacity: 0.9;
+    width: 100%;
+    
+    
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul>img{
+    height: 100px;
+}
+
+nav>ul>li{
+    justify-content: space-between;
+    color: white;   
+    display: flex;
+    flex-direction: column-reverse;
+}
+    /* FIN NAVBAR */
+    
+
+    /* HEADER */
+#package{
+    display: flex;
+    background-color: rgb(75, 103, 143);
+    justify-content: space-around;
+
+}
+
+#package>div{
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-s;
+}
+
+#package>ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#package>ul>li{
+    justify-content: space-around;
+}
+    /* FIN HEADER */
+
+
+    /* SECTION */
+    section :first-child{
+        display: flex;
+    }
+    
+    h2{
+        background-color: rgb(75, 103, 143) ;
+        width: 100px;
+        height: 40px;
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    section>div{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    section>div>p{
+       margin-right: 20%;
+       padding-top: 50px;
+        width: 40%;
+        text-align: center;
+    }
+
+    section>ul{
+        display: flex;
+        background-color: rgb(199, 198, 198);
+        justify-content: space-around;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    section>ul>li{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section>ul>li>img{
+        width: 90px;
+        justify-content: space-around;
+    }
+    /* FIN SECTION */
+
+    /* FOOTER */
+    footer{
+        background-color: rgb(41, 40, 40);
+    }
+    footer>ul{
+        display: flex;
+        justify-content: space-around;
+        opacity: 0.9;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+    
+    footer>ul>li>img{
+        width: 50px;
+    }
+    /* FIN FOOTER */
+    
